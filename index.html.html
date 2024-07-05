@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="main.css.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App</title>
+</head>
+<body>
+    <nav class="navbar bg-dark navbar-expand-lg  navbar-light ">
+        <div class="container my-4 ">
+          <a class="navbar-brand" href="#"> <img src="img/logo.png" alt="Logo" width="60" height="35" class="d-inline-block align-text-top">
+            <div class="div logo-type text-white  ">
+                <h1 class="fs-3 text-white">weather</h1>
+                <small class="text-white">tagline goes here</small>
+            </div>
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+          
+          <div class="collapse navbar-collapse d-flex justify-content-end  text-white"  id="navbarTogglerDemo01">
+            <ul class="navbar-nav ">
+              <li class="nav-item active">
+                <a class="nav-link px-4 py-0  " style="color: rgb(44, 238, 238); border: 2px solid rgb(44, 238, 238); border-radius: 30px;" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item mx-2">
+                <a class="nav-link px-4 py-0 rounded-4 border-2" href="#">News</a>
+              </li>
+              <li class="nav-item mx-2">
+                <a class="nav-link px-4 py-0  rounded-4 border-2" href="#">Live Cameras</a>
+              </li>
+              
+              <li class="nav-item mx-2">
+                <a class="nav-link px-4 py-0  rounded-4 border-2" href="#">
+                    Photos
+                </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link px-4 py-0  rounded-4 border-2" href="#">Contacts</a>
+              </li>
+
+            </ul>
+          </div>
+        </div>
+      </nav>
+      <main>
+<section class="ground">
+ <div class="img bg-info w-100 " style="background-image:linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)) ,url(img/natural-sunshine-beach-sea-bali-calm-water_1417-1169.avif); ;background-position: center;background-size: cover;  "  >
+    <input  type="text" class="find form-control position-relative  m-auto border-2 rounded-5" style="height: 8%;" id="searchInput" placeholder="find your location...">
+    <button class="btn btn-primary position-relative border-1 rounded-4 " id="findBtn">Find</button>
+
+<div class="container mt-5 p-5 ">
+    <div class="row g-0  row-data">
+        <!-- <div class="col-md-4">
+            <div class="card  mb-3 text-white" style="max-width: 30em; background-color: #2D303D;">
+                <div class="card-header d-flex justify-content-between"><p>Monday</p> <p>1july</p></div>
+                <div class="card-body" style="background-color: #323544;">
+                  <h5 class="card-title">Cairo</h5>
+                  <p class="card-text fw-bold ms-3" style="font-size:75px;"> 26.1<sup>o</sup>C</p>
+                  <i class="fa-solid fa-sun mx-4  " style="color: #FFD43B; font-size: 50px;"></i>
+                <p class="mt-3 mx-2 " style="color: blue;">sunny</p>
+                <div class="d-flex ">
+                    <i class="fa-solid fa-umbrella" style="color: #bfc1c8; line-height:1.5;" > <span style="font-size: 14px; color: #bfc1c8;"> 20%</span></i>
+                    <i  class="fa-solid fa-wind mx-3" style=" line-height:1.5; color:  #bfc1c8;"> <span style="font-size: 14px; color: #bfc1c8;"> 18km/h</span></i>
+                    <i class="fa-regular fa-compass"style="color: #bfc1c8; line-height:1.5;"> <span style="font-size: 14px; color: #bfc1c8;"> East</span></i>
+                </div>
+                </div>
+        </div>
+    </div>
+ -->
+
+
+
+    <!-- <div class="col-md-4">
+        <div class="card  mb-3 text-white" style="max-width: 30em; background-color: #222530;">
+            <div class="card-header text-center"><p>Wednesday</p> </div>
+            <div class="card-body text-center pt-5" style="background-color: #262936;">
+                <i class="fa-solid fa-sun mx-4  " style="color: #FFD43B; font-size: 30px;"></i>
+                <p class="card-text fw-bold ms-3" style="font-size:40px;"> 40.6<sup>o</sup>C</p>
+                <p>25.3<sup>o</sup>C</p>
+              
+           
+            <p class="mt-3 mx-2 " style="color: blue;">sunny</p>
+           
+            </div>
+    </div>
+</div> -->
+
+<!-- 
+<div class="col-md-4">
+    <div class="card  mb-3 text-white" style="max-width: 30em; background-color: #2D303D;">
+        <div class="card-header text-center"><p>Tuesday</p> </div>
+        <div class="card-body text-center pt-5 " style="background-color: #323544;">
+            <i class="fa-solid fa-sun mx-4  " style="color: #FFD43B; font-size: 30px;"></i>
+            <p class="card-text fw-bold ms-3" style="font-size:40px;"> 40.1<sup>o</sup>C</p>
+            <p>24.8<sup>o</sup>C</p>
+          
+       
+        <p class="mt-3 mx-2 " style="color: blue;">sunny</p>
+       
+        </div>
+</div>
+</div> -->
+
+
+</div>
+
+</div>
+</div>
+</section>
+  </main>
+  <footer style="background-color: #262936 ;">
+<div class="container pt-5 d-flex justify-content-between ">
+    
+        <input type="text" class="subscribe form-control   border-2 rounded-5"   id="exampleFormControlInput1" placeholder="Enter your Email to subscribe...">
+    <button class="btn btn-primary  border-2 rounded-5">subscribe</button>
+    <p class="text-white ">Copyright 2014 Company name. Designed by Themezy. All rights reserved</p>
+
+<ul class="social-media list-unstyled d-flex justify-content-end ">
+    <li class="  fs-5" ><a href="#"  class=""> <i class="fa-brands fa-facebook-f"></i></a></li>
+    <li class="  fs-5 ms-3"><a href="#"> <i class="fa-brands fa-twitter"></i></a></li>
+    <li class="  fs-5 ms-3"><a href="#"><i class="fa-brands fa-google-plus-g"></i></a></li>
+    <li class="  fs-5 ms-3"><a href="#"> <i class="fa-brands fa-pinterest-p"></i></a></li>
+</ul>
+</div>
+
+
+  </footer>
+
+
+
+<script src="js/bootstrap.bundle.min.js"></script>
+
+ <script src="weather .js.js"></script>
+</body>
+</html>

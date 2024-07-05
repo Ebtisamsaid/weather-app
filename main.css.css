@@ -1,0 +1,99 @@
+.navbar-nav li a:hover{
+    color: rgb(44, 238, 238);
+    border: 2px solid rgb(44, 238, 238) ;
+    border-radius: 15px;
+}
+.navbar-nav li a{
+    color: white;
+}
+ .img{
+    width: 100%;
+    height: 100vh;
+}
+.img .form-control {
+    top:10%
+}
+.img  .btn{
+    width: 100px;
+    top:3%;
+    left:67%;
+}
+ .container .btn{ position: relative;
+top: 2px;
+    right:100px;
+    width: 100px;
+    height: 40px;
+
+}
+footer .container input{
+    height: 40px;
+}
+footer{
+    height:fit-content;
+}
+footer .social-media li a{
+    text-decoration: none;
+    width: 40px;
+    height: 40px;
+    background-color:#1E202B;
+    border:  1px solid #1E202B;
+    font-size: 14px;
+    border-radius: 50% ;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+.ground .find{
+    width: 50%;
+}
+footer .social-media li a:hover{
+    background-color: blue;
+    color: white;
+}
+
+
+footer .container input{
+    width: 600px;
+}
+@media screen and (max-width: 500px) {
+    .ground .img .btn{position: relative;
+        bottom: 36px;
+ 
+        width: 80px;
+        height:35px ;
+      
+    
+}
+ .ground .find{
+    width: 70%;
+ }  
+ .ground{
+    height:100% ;
+ } 
+ .ground .img{
+  height:100%;
+ }
+ footer{
+    height:max-content;
+
+ }
+ footer .btn{position: absolute;
+       left:55%;
+       top: 33px;
+     
+       
+       
+ }
+ footer .container input{
+    width:79% ;
+    height: 40px;
+ }
+ footer .container{
+    display: flex ;
+    flex-direction: column;
+ }
+ footer .social-media li{
+    margin-bottom: 30px;
+ }
+}
